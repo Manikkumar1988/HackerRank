@@ -1,5 +1,7 @@
 def getTotalX(a, b):
     sum1 = 0
+    a.sort()
+    b.sort()
     min1 = a[0]
     for index in range(min1,100):
         atrue = 1

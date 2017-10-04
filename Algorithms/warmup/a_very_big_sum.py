@@ -4,6 +4,7 @@ def aVeryBigSum(n, ar):
         sum += a
     return sum
 
+
 n = int(input().strip())
 ar = list(map(int, input().strip().split(' ')))
 result = aVeryBigSum(n, ar)
